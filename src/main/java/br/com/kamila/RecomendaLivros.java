@@ -7,7 +7,7 @@ import org.apache.mahout.cf.taste.recommender.Recommender;
 
 import java.io.IOException;
 import java.util.List;
-//aqui temos o mecanismo de recomendação de livros
+
 public class RecomendaLivros {
 
 	public static void main(String[] args) throws TasteException, IOException {
