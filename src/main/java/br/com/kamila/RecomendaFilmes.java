@@ -12,9 +12,9 @@ public class RecomendaFilmes {
     public static void main(String[] args) throws IOException, TasteException {
         DataModel filmes = new Recomendador().getModeloDeFilmes();
         Recommender recommender = new RecomendadorBuilder().buildRecommender(filmes);
-        //listamos as recomedações para o usuário solicitado
+        
         //TODO receber as informações de usuário e número de recomendações do usuário
-        //primeiro parâmentro e usuário , segundo o número de recomendações
+        
         List<RecommendedItem> recommendations = recommender.recommend(4, 3);
         for (RecommendedItem recommendation : recommendations) {
             System.out.println("Voce pode gostar deste filme");
