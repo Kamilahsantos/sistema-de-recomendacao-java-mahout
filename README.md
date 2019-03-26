@@ -8,13 +8,13 @@ mvn archetype:generate -DgroupId=br.com.kamila -DartifactId=sistema-de-recomenda
 
 **Onde**:
 
-- ```bash mvn archetype: generate ``` - cria projeto
+- ```mvn archetype: generate ``` - cria projeto
 
-- ```bash GroupId ``` - identificação do grupo do projeto, por convenção, inciamos com nomedopais.com.nomedaorganização
+- ```GroupId ``` - identificação do grupo do projeto, por convenção, inciamos com nomedopais.com.nomedaorganização
 
-- ```bash ArtifactId ``` - nome do projeto
+- ```ArtifactId ``` - nome do projeto
 
-- ```bash arc hetypeArtifactId ``` - tipo de configuração inicial do projeto, no caso o quickstart usa configurações default.
+- ```arc hetypeArtifactId ``` - tipo de configuração inicial do projeto, no caso o quickstart usa configurações default.
 
 
 Se o seu prompt não reconhecer o comando mvn, devemos adicioná-lo no PATH:
